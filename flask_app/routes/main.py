@@ -7,6 +7,10 @@ main = Blueprint('main', __name__)
 def home():
     return render_template("prototype.html")
 
+@main.route("/in", methods = ['GET'])
+def home():
+    return render_template("signedin.html")
+
 @main.route("/favicon.ico", methods = ['GET'])
 def fav():
     return render_template("prototype.html")
