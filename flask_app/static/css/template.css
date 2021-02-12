@@ -1,7 +1,7 @@
 
 
 body {
-    background-image: url(bg.jpg);
+    background-image: url(../images/bg.jpg);
     background-size: cover;
     color:black;
     font: italic normal 1.4em georgia, sans-serif;
