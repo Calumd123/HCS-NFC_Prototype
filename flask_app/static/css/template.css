@@ -1,7 +1,10 @@
 
 
 body {
-    background-image: url(../images/bg.jpg);
+    background-image: url(../images/bg.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
     color:black;
     font: italic normal 1.4em georgia, sans-serif;
