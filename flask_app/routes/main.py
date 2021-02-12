@@ -15,5 +15,8 @@ def signedin():
 def fav():
     return render_template("prototype.html")
 
+@main.route("/nfc", methods = ['POST'])
+def responseFromMobile():
+    return render_template("signedin.html")
 
     
