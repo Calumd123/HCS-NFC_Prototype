@@ -8,7 +8,7 @@ def home():
     return render_template("prototype.html")
 
 @main.route("/in", methods = ['GET'])
-def home():
+def signedin():
     return render_template("signedin.html")
 
 @main.route("/favicon.ico", methods = ['GET'])
