@@ -17,6 +17,6 @@ def fav():
 
 @main.route("/nfc", methods = ['POST'])
 def responseFromMobile():
-    return render_template("signedin.html")
+    return {hi: "hi"}
 
     
