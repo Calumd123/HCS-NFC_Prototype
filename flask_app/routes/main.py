@@ -17,6 +17,9 @@ def fav():
 
 @main.route("/nfc", methods = ['POST'])
 def responseFromMobile():
-    return {hi: "hi"}
+
+    response = {"message": "hi"}
+
+    return response
 
     
